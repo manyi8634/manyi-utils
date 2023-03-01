@@ -1,6 +1,6 @@
 {
   "name": "manyi-utils",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "Welcome to manyi-utils !",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,10 @@
   },
   "author": "zhangmanyi",
   "license": "MIT",
-  "keywords": ["manyi-utils","manyi","zhangmanyi"]
+  "keywords": ["manyi-utils","manyi","zhangmanyi"],
+  "repository": {
+    "type": "git",
+    "url":"https://gitee.com/manyi863412757/manyi-utils.git"
+  },
+  "homepage": "https://gitee.com/manyi863412757/manyi-utils.git"
 }
