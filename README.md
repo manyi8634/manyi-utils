@@ -7,9 +7,9 @@ npm install manyi-utils / npm i manyi-utils
 ```js
 import { deepClone } from 'manyi-utils'
 
-deepClone 深拷贝
-isIE   是否为ie浏览器
-
+deepClone   深拷贝
+isIE        是否为ie浏览器
+numSub      js小数相减精度丢失减处理
 ```
 >
 
