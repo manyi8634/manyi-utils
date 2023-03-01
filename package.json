@@ -1,0 +1,12 @@
+{
+  "name": "manyi-utils",
+  "version": "1.0.1",
+  "description": "Welcome to manyi-utils !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangmanyi",
+  "license": "MIT",
+  "keywords": ["manyi-utils","manyi","zhangmanyi"]
+}
