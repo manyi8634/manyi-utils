@@ -1,4 +1,8 @@
-// 深拷贝
+/**
+ * @param {T} obj
+ * @returns {T}
+ * @description 深拷贝
+ */
 export function deepClone(obj) {
   if (typeof obj !== "object" || obj == null) { // 判断传进来的参数类型不是对象数组 或者是null时 直接返回
     return obj
@@ -17,7 +21,10 @@ export function deepClone(obj) {
   return result
 }
 
-// 是否为IE浏览器
+/**
+ * @returns {Boolean}
+ * @description 是否为IE浏览器
+ */
 export function isIE(){
   const userAgent = navigator.userAgent.toLocaleLowerCase()
   const ie = userAgent.indexOf('compatible') > -1 && userAgent.indexOf('msie') > -1
@@ -26,7 +33,12 @@ export function isIE(){
   return ie || ie11
 }
 
-// js小数相减精度丢失减处理
+/**
+ * @param {number} arg1
+ * @param {number} arg2
+ * @returns {number}
+ * @description js小数相减精度丢失减处理
+ */
 export function numSub(arg1,arg2){ 
   let r1,r2,m,n; 
   try{r1=arg1.toString().split(".")[1].length}catch(e){r1=0} 
@@ -34,4 +46,24 @@ export function numSub(arg1,arg2){
   m=Math.pow(10,Math.max(r1,r2))
   n=(r1>=r2)?r1:r2
   return ((arg1*m-arg2*m)/m).toFixed(n); 
+}
+
+/**
+ * @param {string} email
+ * @returns {Boolean}
+ * @description 正则验证Emai格式是否合法
+ */
+export function isEmail(email) {
+  const reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  return reg.test(email)
+}
+
+
+
+
+export default {
+  deepClone,
+  isIE,
+  numSub,
+  isEmail
 }

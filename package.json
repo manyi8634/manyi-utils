@@ -1,6 +1,6 @@
 {
   "name": "manyi-utils",
-  "version": "0.0.1",
+  "version": "1.0.3",
   "description": "Welcome to manyi-utils !",
   "main": "index.js",
   "scripts": {

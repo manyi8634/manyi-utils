@@ -6,12 +6,18 @@ npm install manyi-utils / npm i manyi-utils
 ## 使用说明
 ```js
 import { deepClone } from 'manyi-utils'
+或
+import manyi from 'manyi-utils'
+manyi.deepClone(...)
 
-deepClone   深拷贝
-isIE        是否为ie浏览器
-numSub      js小数相减精度丢失减处理
 ```
->
+| 方法      | 说明          | 参数     | 返回值                           |
+|---------- |-------------- |---------- |--------------------------------  |
+| deepClone     | 深拷贝           | T | T |
+| isIE | 是否为ie浏览器 | - | Boolean |
+| numSub | js小数相减精度丢失减处理| arg1:number,arg2:number | Number |
+| isEmail | 正则校验email是否合法 |  arg:string | Boolean |
+
 
 
 
