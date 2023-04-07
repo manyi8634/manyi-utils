@@ -10,6 +10,9 @@ import { deepClone } from 'manyi-utils'
 import manyi from 'manyi-utils'
 manyi.deepClone(...)
 
+支持lodash (version 4.17.21)用法，并对lodash进行了增强
+import _ from 'manyi-utils'
+
 ```
 | 方法      | 说明          | 参数     | 返回值                           |
 |---------- |-------------- |---------- |--------------------------------  |
@@ -18,7 +21,7 @@ manyi.deepClone(...)
 | numSub | js小数相减精度丢失减处理| arg1:number,arg2:number | Number |
 | isEmail | 正则校验email是否合法 |  arg:string | Boolean |
 
-
+... 持续更新中
 
 
 

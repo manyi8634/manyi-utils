@@ -59,9 +59,11 @@ export function isEmail(email) {
 }
 
 
-
+// 合并lodash,对lodash进行扩展
+import _ from 'lodash'
 
 export default {
+  ..._,
   deepClone,
   isIE,
   numSub,

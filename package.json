@@ -1,17 +1,29 @@
 {
   "name": "manyi-utils",
-  "version": "1.0.3",
-  "description": "Welcome to manyi-utils !",
+  "version": "1.0.4",
+  "description": "Welcome to manyi-utils ! Support for vue react and angular",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zhangmanyi",
   "license": "MIT",
-  "keywords": ["manyi-utils","manyi","zhangmanyi"],
+  "keywords": [
+    "utils",
+    "util",
+    "manyi-utils",
+    "manyi",
+    "zhangmanyi"
+  ],
   "repository": {
     "type": "git",
-    "url":"https://gitee.com/manyi863412757/manyi-utils.git"
+    "url": "https://gitee.com/manyi863412757/manyi-utils.git"
   },
-  "homepage": "https://gitee.com/manyi863412757/manyi-utils.git"
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://gitee.com/manyi863412757/manyi-utils.git",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
