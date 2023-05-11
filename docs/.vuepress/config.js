@@ -1,6 +1,6 @@
 module.exports = {
   title: 'manyi-utils 中文网',
-    description: 'manyi-utils',
+    description: '日常工作收集的工具函数',
     port: 9090,
     themeConfig: {
 			nav: [
