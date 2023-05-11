@@ -1,7 +1,6 @@
 # 使用说明
 - manyi-utils集成了lodash并对其进行了扩展
 
-# 使用方法
 ```js
 import { deepClone } from 'manyi-utils'
 或
