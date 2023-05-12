@@ -19,6 +19,6 @@ import _ from 'manyi-utils'
 | numSub | js小数相减精度丢失减处理| arg1:number,arg2:number | Number |
 | isEmail | 正则校验email是否合法 |  arg:string | Boolean |
 
-::: tip
+::: tip  Welcome
 欢迎您的建言献策，我会将您提供的工具函数添加进去的~
 :::
