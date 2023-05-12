@@ -1,7 +1,7 @@
 ## 安装教程
 
 ```bash
-npm install manyi-utils / npm i manyi-utils
+npm i manyi-utils / yarn add manyi-utils / ...
 ```
 ## 使用说明
 ```js
