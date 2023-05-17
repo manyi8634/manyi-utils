@@ -1,6 +1,7 @@
 ---
 home: true
-actionText: 起步 →
+heroImage: /logo.png
+actionText: 快速上手 →
 actionLink: /guide/introduce
 features:
 - title: 简单易用
