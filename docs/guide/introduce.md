@@ -6,7 +6,7 @@
 ## 使用环境  
 
 ::: tip 提示
-vue/react/angular/webpack/vite/node 等支持模块化环境都是阔以滴
+**vue/react/angular/webpack/vite/node** 等支持模块化环境都是阔以滴
 :::
 
 ## 下载使用
