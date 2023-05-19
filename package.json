@@ -1,6 +1,6 @@
 {
   "name": "manyi-utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Welcome to manyi-utils ! Support for vue react and angular",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "vuepress": "^1.9.9"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
