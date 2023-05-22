@@ -1,3 +1,5 @@
+## 使用文档
+> https://manyi8634.github.io/manyi-utils-doc
 ## 安装教程
 
 ```bash
@@ -25,9 +27,8 @@ import _ from 'manyi-utils'
 
 
 
-## 说明
-> 前端日常工作开发常用utils工具函数，欢迎使用！使用文档请联系作者！
-
+## 其他
+> 前端日常工作开发常用utils工具函数，欢迎使用！
 
 
 

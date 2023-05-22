@@ -1,4 +1,5 @@
 module.exports = {
+  base:'/manyi-utils-doc/',
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }]
   ],

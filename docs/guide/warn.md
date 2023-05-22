@@ -1,8 +1,10 @@
 # 特别提醒
 ::: warning 注意了
-由于manyi-utils是个人发布，目前已发布至npm官方镜像中，**支持淘宝、华为、官方等镜像**。由于下载量等原因，**暂不支持小伙伴们的公司镜像**，下载manyi-utils前请核对您的npm镜像哟~ sorry~  我会加油的！
+由于manyi-utils是个人发布，目前已发布至npm官方镜像中，**支持淘宝、华为、腾讯、官方等镜像**。由于下载量等原因，**暂不支持小伙伴们的公司镜像**，下载manyi-utils前请核对您的npm镜像~ sorry~  我会加油的！
 :::
 
 - 附：
-  - 查看镜像  npm config get registry
-  - 设置淘宝镜像 npm config set registry https://registry.npm.taobao.org/
+  - 淘宝镜像 https://registry.npm.taobao.org/
+  - 华为镜像 https://mirrors.huaweicloud.com/repository/npm/
+  - 腾讯镜像 http://mirrors.cloud.tencent.com/npm/
+  - 官方镜像 https://registry.npmjs.org/
