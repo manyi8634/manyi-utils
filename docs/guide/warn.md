@@ -6,5 +6,5 @@
 - 附：
   - 淘宝镜像 https://registry.npm.taobao.org/
   - 华为镜像 https://mirrors.huaweicloud.com/repository/npm/
-  - 腾讯镜像 http://mirrors.cloud.tencent.com/npm/
+  - 腾讯镜像 https://mirrors.cloud.tencent.com/npm/
   - 官方镜像 https://registry.npmjs.org/
