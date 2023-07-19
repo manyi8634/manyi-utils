@@ -1,5 +1,6 @@
 module.exports = {
-  base:'/manyi-utils-doc/',
+  base:'/doc/manyi-utils/',
+  dest:'docs/.vuepress/manyi-utils',
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }]
   ],
@@ -10,7 +11,7 @@ module.exports = {
     nav: [
       { text: '指南', link: '/guide/introduce' },
       { text: 'API参考', link: '/config/api' },
-      { text: 'Gitee', link: 'https://gitee.com/manyi863412757/manyi-utils' },
+      { text: 'Github', link: 'https://github.com/manyi8634/manyi-utils' },
     ],
     sidebar: {
       '/guide/': [

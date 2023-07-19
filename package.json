@@ -18,12 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/manyi863412757/manyi-utils.git"
+    "url": "https://github.com/manyi8634/manyi-utils.git"
   },
   "files": [
     "index.js"
   ],
-  "homepage": "https://manyi8634.github.io/manyi-utils-doc",
+  "homepage": "https://manyi8634.github.io/doc/manyi-utils",
   "dependencies": {
     "lodash": "^4.17.21"
   },

@@ -1,11 +1,15 @@
 ## 使用文档
-> https://manyi8634.github.io/manyi-utils-doc
+
+> https://manyi8634.github.io/doc/manyi-utils
+
 ## 安装教程
 
 ```bash
 npm i manyi-utils / yarn add manyi-utils / ...
 ```
+
 ## 使用说明
+
 ```js
 import { deepClone } from 'manyi-utils'
 或
@@ -25,9 +29,8 @@ import _ from 'manyi-utils'
 
 ... 持续更新中
 
-
-
 ## 其他
+
 > 前端日常工作开发常用utils工具函数，欢迎使用！
 
 
