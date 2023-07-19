@@ -1,6 +1,6 @@
 {
   "name": "manyi-utils",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Welcome to manyi-utils ! Support for vue react and angular",
   "main": "index.js",
   "scripts": {
